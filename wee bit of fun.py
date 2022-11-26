@@ -88,6 +88,24 @@ t.fd(20)
 t.lt(30)
 t.fd(30)
 
+t.penup()
+t.goto(-200,-200)
+
+#<3
+t.pendown()
+t.lt(45)
+t.fd(50)
+t.setheading(90)
+t.rt(45)
+t.fd(50)
+t.penup()
+t.goto(-195,-200)
+t.pendown()
+t.setheading(-25)
+t.circle(20, 230)
+t.setheading(-25)
+t.circle(20, 230)
+
 turtle.done()
 
 
